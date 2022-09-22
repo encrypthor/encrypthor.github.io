@@ -95,7 +95,7 @@ main {
 }
 
 .title ul {
-  margin: 1.5em 0em;
+  margin: 1.2em 0em;
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -264,6 +264,6 @@ footer p {
   .title ul {
     justify-content: left;
     padding: 5px 15px;
-    margin: 1.5em 10px;
+    margin: 1em 10px;
   }
 }
