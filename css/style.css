@@ -209,7 +209,7 @@ footer {
   /* text-align: center; */
   padding: 15px;
   margin: 15px 10px 10px 10px;
-  margin-bottom: 8vh;
+  /* margin-bottom: 8vh; */
   font-size: 0.8em;
   font-weight: bold;
 
@@ -218,4 +218,9 @@ footer {
   /* width: 100%; */
   color: white;
   opacity: 0.5;
+}
+
+footer p {
+  margin: 6px 4px;
+  padding: 6px 4px;
 }
