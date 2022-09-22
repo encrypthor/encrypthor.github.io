@@ -24,46 +24,42 @@
 
   <body>
     <canvas id="Matrix"></canvas>
-    <main class="main">
-      <div class="glass">
-        <h1 class="title">Matrix encryptor</h1>
 
-        <div class="form box">
-          <h2 id="first-msg">Escriba su mensaje:</h2>
-          <form action="">
-              <label for="input-text" id="sub-msg">El mensaje se mostrará en minúsculas. No se pueden ingresar números
-                  ni caracteres especiales.</label>
-              <input class="text-input" type="text" name="input-text" id="input" placeholder="Ingrese el texto aquí.">
-              <span id="error" class="invisible"></span>
-              <div class=buttons>
-                  <input class="btn" type="submit" value="Encriptar" id="btn-encrypt">
-                  <input class="btn" type="submit" value="Desencriptar" id="btn-decrypt">
-              </div>
-          </form>
-  
+    <div class="glass">
+      <main class="main">
+        
+          <h1 class="title">Matrix encryptor</h1>
+
+          <div class="form box">
+            <h2 id="first-msg">Escriba su mensaje:</h2>
+            <form action="">
+                <label for="input-text" id="sub-msg">El mensaje se mostrará en minúsculas. No se pueden ingresar números, acentos
+                    ni caracteres especiales.</label>
+                <input class="text-input" type="text" name="input-text" id="input" placeholder="Ingrese el texto aquí.">
+                <span id="error" class="invisible"></span>
+                <div class=buttons>
+                    <input class="btn" type="submit" value="Encriptar" id="btn-encrypt">
+                    <input class="btn" type="submit" value="Desencriptar" id="btn-decrypt">
+                </div>
+            </form>
+          </div>
+    
           <div class="msg box">
               <h2 id="second-msg">Mensaje encriptado:</h2>
               <input class="text-input" type="text" id="output" readonly="readonly"></input>
               <div class=buttons>
                   <input class="btn" type="submit" value="Copiar" id="btn-copy">
               </div>
-        </div>
-  
-        <footer>
-          <p>Copyright © 2022 LLS Ready2devs, v 1.0.0</p>
-        </footer>
+          </div>
+    
+          <footer>
+            <p>Copyright © 2022 LLS Ready2devs, v 1.0.0</p>
+          </footer>
+
+      </main>
+    </div>
 
 
-
-
-      </div>
-
-
-
-      
-
-
-    </main>
 
     <script src="./js/matrix.js"></script>
     <script
