@@ -118,12 +118,16 @@ main {
 .title {
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 3em;
-  margin-bottom: 12px;
+  font-size: 2.5em;
+  margin-bottom: 0.6em;
   width: 100%;
   justify-content: center;
   color: white;
+  line-height: 1em;
   /* margin-bottom: 0.5em; */
+  text-shadow: 1.5px 1px 0px #0f0;
+  filter: drop-shadow(-1px -1px 0px #28ffff);
+  /* filter: drop-shadow(-1px -1px 0px #fe2d52); */
 }
 
 .buttons {
@@ -145,7 +149,7 @@ main {
   font-family: "Lato", sans-serif;
   font-size: 0.8em;
   overflow: hidden;
-  margin: 0.1em;
+  margin: 0.2em;
   /* transition: 0.2s; */
 }
 .btn:hover {
