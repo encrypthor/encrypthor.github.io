@@ -107,6 +107,7 @@ main {
 
 .title ul li {
   display: inline-block;
+  list-style: none;
 }
 
 .title ul li:nth-child(1) {
