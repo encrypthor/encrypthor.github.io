@@ -268,7 +268,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 448px) {
   .title ul {
     margin: 0.7em 10px;
   }
