@@ -123,7 +123,7 @@ main {
   width: 100%;
   justify-content: center;
   color: white;
-  line-height: 1em;
+  line-height: 0.9em;
   /* margin-bottom: 0.5em; */
   text-shadow: 1.5px 1px 0px #0f0;
   filter: drop-shadow(-1px -1px 0px #28ffff);
