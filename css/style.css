@@ -173,6 +173,8 @@ main {
   /* background-color: #4e4e4e; */
   transform: translateY(4px);
   transition-delay: 0.2s;
+  background: none;
+  box-shadow: none;
 }
 
 .text-input {
