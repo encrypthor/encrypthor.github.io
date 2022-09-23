@@ -154,6 +154,15 @@ main {
   }
 }
 
+@media (hover: none) {
+  .btn {
+    /* color: orange; */
+    background: none;
+    box-shadow: none;
+    transition-delay: none;
+  }
+}
+
 /* .btn {
   border: solid;
   border-bottom-style: groove;
