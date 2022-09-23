@@ -144,16 +144,14 @@ main {
   margin: 0.2em;
   /* transition: 0.2s; */
 }
-.btn:hover {
-  /* color: orange; */
-  background: #0f0;
-  box-shadow: 0 0 10px #0f0;
-  transition-delay: 0.1s;
-}
 
-.btn.btn:touchend {
-  background: none;
-  box-shadow: none;
+@media (hover: hover) {
+  .btn:hover {
+    /* color: orange; */
+    background: #0f0;
+    box-shadow: 0 0 10px #0f0;
+    transition-delay: 0.1s;
+  }
 }
 
 /* .btn {
