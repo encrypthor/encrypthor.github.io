@@ -151,6 +151,11 @@ main {
   transition-delay: 0.1s;
 }
 
+.btn.btn:touchend {
+  background: none;
+  box-shadow: none;
+}
+
 /* .btn {
   border: solid;
   border-bottom-style: groove;
