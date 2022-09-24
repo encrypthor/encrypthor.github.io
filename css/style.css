@@ -148,7 +148,7 @@ main {
 @media (hover: hover) {
   .btn:hover {
     /* color: orange; */
-    border-color: #fff;
+    /* border-color: #fff; */
     background: #0f0;
     box-shadow: 0 0 10px #0f0;
     transition-delay: 0.1s;
@@ -216,7 +216,7 @@ main {
   color: red;
   /* text-shadow: 2px 2px 3px white; */
   justify-content: right;
-  font-size: 12px;
+  font-size: 0.6em;
 }
 
 main #sub-msg {
