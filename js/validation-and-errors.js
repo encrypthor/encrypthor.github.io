@@ -18,6 +18,6 @@ function validateString(input) {
 //Error message
 function errorMsg() {
   var error = document.querySelector("#error");
-  //   error.textContent = "Error. Ha ingresado un carácter inválido.";
-  error.innerText = "Error. Ha ingresado un carácter inválido.";
+  document.getElementById("error").style.visibility = "visible!important";
+  error.textContent = "Error. Ha ingresado un carácter inválido.";
 }

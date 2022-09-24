@@ -148,20 +148,21 @@ main {
 @media (hover: hover) {
   .btn:hover {
     /* color: orange; */
+    border-color: #fff;
     background: #0f0;
     box-shadow: 0 0 10px #0f0;
     transition-delay: 0.1s;
   }
 }
 
-@media (hover: none) {
+/* @media (hover: none) {
   .btn {
-    /* color: orange; */
+    color: orange;
     background: none;
     box-shadow: none;
     transition-delay: none;
   }
-}
+} */
 
 /* .btn {
   border: solid;
@@ -199,19 +200,23 @@ main {
   outline-color: #747474;
 }
 
-main #error {
-  /* position: relative;
-  z-index: 1; */
+/* main #error {
+  position: relative;
+  z-index: 1;
   color: red;
-}
+} */
+
 #error {
   display: flex;
-  margin-top: 5px;
-  margin-left: 3px;
+
+  visibility: visible !important;
+
+  margin-top: 4px;
+  margin-left: 2px;
   color: red;
   /* text-shadow: 2px 2px 3px white; */
   justify-content: right;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 main #sub-msg {
