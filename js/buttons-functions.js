@@ -13,6 +13,7 @@ function encrypt(input) {
       array.splice(i, 1, "ufat");
     }
   }
+  document.getElementById("error").style.display = "none";
   return array.join("");
 }
 
@@ -43,6 +44,7 @@ function decrypt(input) {
       array.splice(i, 4, "u");
     }
   }
+  document.getElementById("error").style.display = "none";
   return array.join("");
 }
 
