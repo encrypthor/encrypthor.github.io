@@ -207,16 +207,15 @@ main {
 } */
 
 #error {
-  display: flex;
-
-  visibility: visible !important;
-
+  /* display: flex; */
+  display: none;
   margin-top: 4px;
   margin-left: 2px;
   color: red;
   /* text-shadow: 2px 2px 3px white; */
   justify-content: right;
   font-size: 0.6em;
+  visibility: visible !important;
 }
 
 main #sub-msg {
